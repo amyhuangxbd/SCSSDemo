@@ -1,0 +1,10 @@
+html, body {
+  height: 100%; }
+
+body:before, body:after {
+  content: "";
+  display: block;
+  height: 50%;
+  background: #00bdea; }
+
+/*# sourceMappingURL=style.css.map */

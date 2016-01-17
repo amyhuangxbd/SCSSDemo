@@ -1,0 +1,14 @@
+$lightBlue: darken(#EAFBFF, 50%);
+
+html, body {
+	height: 100%;
+}
+body {
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		height: 50%;
+		background: $lightBlue;
+	}
+}
